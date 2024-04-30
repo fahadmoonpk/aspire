@@ -1762,6 +1762,9 @@ footer .contact-form button.filled-button:hover {
 
 
 }
+.site-footer-main p:hover {
+	color: #0E2442 !important;
+}
 
 .site-footer-main:hover {
 	color: #0E2442 !important;

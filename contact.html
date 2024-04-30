@@ -57,7 +57,7 @@
             <li class="nav-item active">
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -121,20 +121,20 @@
         <div class="col-md-7 ">
           <div class="contact-">
             <form id="applicationForm" onsubmit="submitForm(event)">
-             <div class="row">
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="fullName">Full Name</label>
-                  <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                  </div>
                 </div>
               </div>
-              <div class="col-sm-6">
-                <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-                </div>
-              </div>
-             </div>
               <div class="form-group">
                 <label for="subject">Subject</label>
                 <input type="text" class="form-control" id="subject" placeholder="Enter Subject" required>
@@ -148,7 +148,7 @@
               <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="" required>
                 <label class="form-check-label" for="">Confirm</label>
-            </div>
+              </div>
               <input type="submit" class="btn btn-primary"></input>
             </form>
           </div>
@@ -165,15 +165,17 @@
 	4. Copy only URL and paste it within the src="" field below
 -->
     <iframe
-      src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
-      width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3399.671132644817!2d74.41834177540767!3d31.560638874195504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDMzJzM4LjMiTiA3NMKwMjUnMTUuMyJF!5e0!3m2!1sen!2s!4v1714511550561!5m2!1sen!2s"
+      width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
   </div>
 
   <div class="partne contact-partners">
     <div class="container">
       <div class="row">
         <div class="col-md-12 d-flex justify-content-center align-items-center">
-              <img src="assets/Logo/ASPIRE TECH (2).png" alt="" width="300px" height="200px">
+          <img src="assets/Logo/ASPIRE TECH (2).png" alt="" width="300px" height="200px">
         </div>
       </div>
     </div>
@@ -189,22 +191,13 @@
           <p>Our vision is to be a catalyst for positive change in the world through technology. We aspire to empower
             businesses and individuals with innovative solutions that enhance productivity, efficiency, and overall
             quality of life.</p>
-          <ul class="social-icons">
-            <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          </ul>
+
         </div>
         <div class="col-md-3 footer-item">
-          <h4>Useful Links</h4>
-          <ul class="menu-list">
-            <li><a href="#">Vivamus ut tellus mi</a></li>
-            <li><a href="#">Nulla nec cursus elit</a></li>
-            <li><a href="#">Vulputate sed nec</a></li>
-            <li><a href="#">Cursus augue hasellus</a></li>
-            <li><a href="#">Lacinia ac sapien</a></li>
-          </ul>
+          <h4>Mission</h4>
+          <p>Our mission is to deliver cutting-edge technology solutions that exceed expectations and drive tangible
+            results for our clients. We strive to be a trusted partner, providing tailored solutions that address the
+            unique needs of each client.</p>
         </div>
         <div class="col-md-3 footer-item">
           <h4>Quick Links</h4>
@@ -218,7 +211,7 @@
         </div>
         <div class="col-md-3 footer-item last-item">
           <h4>Contact Us</h4>
-          <div class="contact-form">
+          <!-- <div class="contact-form">
             <form id="contact footer-contact" action="" method="post">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -245,11 +238,18 @@
                 </div>
               </div>
             </form>
-          </div>
+          </div> -->
+
+          <ul class="social-icons">
+            <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
         </div>
       </div>
     </div>
-   
+
   </footer>
 
   <div class="sub-footer">
@@ -258,7 +258,7 @@
         <div class="col-md-12">
           <p>Copyright &copy; 2024 Aspire Tech.
 
-            </p>
+          </p>
         </div>
       </div>
     </div>
@@ -278,12 +278,12 @@
   <script>
     // Firebase configuration
     const firebaseConfig = {
-        apiKey: "AIzaSyAAcIyZcBJGa-96bYZLrzHgZ59xVcm00n0",
-        authDomain: "aspire-6d70c.firebaseapp.com",
-        projectId: "aspire-6d70c",
-        storageBucket: "aspire-6d70c.appspot.com",
-        messagingSenderId: "80245400067",
-        appId: "1:80245400067:web:461b16efead82565dd6436"
+      apiKey: "AIzaSyAAcIyZcBJGa-96bYZLrzHgZ59xVcm00n0",
+      authDomain: "aspire-6d70c.firebaseapp.com",
+      projectId: "aspire-6d70c",
+      storageBucket: "aspire-6d70c.appspot.com",
+      messagingSenderId: "80245400067",
+      appId: "1:80245400067:web:461b16efead82565dd6436"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
@@ -293,31 +293,31 @@
 
     // Function to handle form submission
     function submitForm(event) {
-        event.preventDefault(); // Prevent default form submission behavior
+      event.preventDefault(); // Prevent default form submission behavior
 
-        // Get form values
-        const fullName = document.getElementById('fullName').value;
-        const email = document.getElementById('email').value;
-        const subject = document.getElementById('subject').value;
-        const message = document.getElementById('message').value;
+      // Get form values
+      const fullName = document.getElementById('fullName').value;
+      const email = document.getElementById('email').value;
+      const subject = document.getElementById('subject').value;
+      const message = document.getElementById('message').value;
 
-        // Save form data to Firebase
-        database.push().set({
-            fullName: fullName,
-            email: email,
-            subject: subject,
-            message: message
+      // Save form data to Firebase
+      database.push().set({
+        fullName: fullName,
+        email: email,
+        subject: subject,
+        message: message
+      })
+        .then(() => {
+          alert('Send message successful');
+          document.getElementById('applicationForm').reset(); // Reset the form
         })
-            .then(() => {
-                alert('Send message successful');
-                document.getElementById('applicationForm').reset(); // Reset the form
-            })
-            .catch((error) => {
-                console.error('Error submitting application:', error);
-                alert('An error occurred while submitting your application. Please try again later.');
-            });
+        .catch((error) => {
+          console.error('Error submitting application:', error);
+          alert('An error occurred while submitting your application. Please try again later.');
+        });
     }
-</script>
+  </script>
 
 
   <script language="text/Javascript">

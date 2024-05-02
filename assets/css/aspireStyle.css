@@ -257,7 +257,7 @@ header .navbar {
 }
 
 .background-header .navbar {
-	padding: 0px 0px;
+	padding: 5px 0px;
 }
 
 .background-header {
@@ -1542,7 +1542,7 @@ footer .contact-form button.filled-button:hover {
 	}
 
 	header .navbar {
-		padding: 0px 1px;
+		padding: 0px 1px !important;
 		background-color: whitesmoke;
 		padding-bottom: 15px !important;
 

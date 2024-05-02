@@ -11,8 +11,8 @@
     rel="stylesheet">
 
 
-    <title>Aspire Tech</title>
-    <link rel="icon" type="image/png" href="assets/Logo/ASPIRE TECH (5).png">
+  <title>Aspire Tech</title>
+  <link rel="icon" type="image/png" href="assets/Logo/ASPIRE TECH (5).png">
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,7 +20,11 @@
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/aspireStyle.css">
   <link rel="stylesheet" href="assets/css/owl.css">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -54,7 +58,7 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
-            
+
           </ul>
         </div>
       </div>
@@ -608,132 +612,138 @@
 
   <div class="container mt-5 mb-5">
     <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center">Project Details</h1>
-            <p class="text-center">We work magic with software solutions</p>
-        </div>
+      <div class="col-md-12">
+        <h1 class="text-center">Project Details</h1>
+        <p class="text-center">We work magic with software solutions</p>
+      </div>
     </div>
     <div class="row justify-content-center mt-5">
-        <div class="col-md-6">
-            <form id="applicationForm" onsubmit="submitForm(event)">
-                <div class="form-group">
-                    <label for="fullName">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phoneNo">Phone No</label>
-                    <input type="tel" class="form-control" id="phoneNo" placeholder="Enter phone no" required>
-                </div>
-                <div class="form-group">
-                    <label for="position">Position</label>
-                    <input type="text" class="form-control" id="position" placeholder="Write your position to apply"
-                        required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Project Details</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Write your message"
-                        required></textarea>
-                </div>
-                <input type="submit" class="btn btn-primary"></input>
-            </form>
+      <div class="col-md-6">
+        <form id="applicationForm" onsubmit="submitForm(event)">
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Enter full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneNo">Phone No</label>
+            <input type="tel" class="form-control" id="phoneNo" placeholder="Enter phone no" required>
+          </div>
+          <div class="form-group">
+            <label for="projectDetails">Project Basis </label>
+            <select class="form-select " id="projectDetails" aria-label="Project details">
+              <option selected>Select Project Basis</option>
+              <option value="Mobile Application">Mobile Application</option>
+              <option value="Web Application">Web Application</option>
+              <option value="Desktop Application">Desktop Application</option>
+              <option value="AI Based Application">AI Based Application</option>
+              <option value="Blockchain Application">Blockchain Application</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Project Details</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Write your message" required></textarea>
+          </div>
+          <input type="submit" class="btn btn-primary"></input>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="partne contact-partners mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center align-items-center">
+          <img src="assets/Logo/ASPIRE TECH (2).png" alt="" width="300px" height="200px">
         </div>
-    </div>
-</div>
-
-<div class="partne contact-partners mt-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 d-flex justify-content-center align-items-center">
-        <img src="assets/Logo/ASPIRE TECH (2).png" alt="" width="300px" height="200px">
       </div>
     </div>
   </div>
-</div>
 
 
-<!-- Footer Starts Here -->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 footer-item">
-        <h4>Vision</h4>
-        <p>Our vision is to be a catalyst for positive change in the world through technology. We aspire to empower
-          businesses and individuals with innovative solutions that enhance productivity, efficiency, and overall
-          quality of life.</p>
+  <!-- Footer Starts Here -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 footer-item">
+          <h4>Vision</h4>
+          <p>Our vision is to be a catalyst for positive change in the world through technology. We aspire to empower
+            businesses and individuals with innovative solutions that enhance productivity, efficiency, and overall
+            quality of life.</p>
 
+        </div>
+        <div class="col-md-3 footer-item">
+          <h4>Mission</h4>
+          <p>Our mission is to deliver cutting-edge technology solutions that exceed expectations and drive tangible
+            results for our clients. We strive to be a trusted partner, providing tailored solutions that address the
+            unique needs of each client.</p>
+        </div>
+        <div class="col-md-3 footer-item">
+          <h4>Quick Links</h4>
+          <ul class="menu-list">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="join-us.html">Join Us</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer-item last-item">
+          <h4>Contact Us</h4>
+
+
+          <div>
+
+            <p class="text-white d-flex mb-2 ">
+              <i class=" fa fa-phone site-footer-icon"></i>
+
+              <a href="tel: +92 336 5555408" class="site-footer-link ">
+                +92 336 5555408
+              </a>
+            </p>
+
+            <p class="text-white d-flex site-footer-main">
+              <i class="fa fa-envelope site-footer-icon"></i>
+
+              <a href="mailto:aspiretechnologies88@gmail.com" class="site-footer-link">
+                aspiretechnologies88@gmail.com </a>
+            </p>
+
+            <p class="text-white d-flex mt-3 site-footer-main">
+              <i class="fa fa-map-marker site-footer-icon "></i>
+
+              <a href="https://maps.app.goo.gl/xMenKojYXraNXFGM7 " target="_blank" class="site-footer-link">Aspire Tech,
+                Manzoor Colony Phase 3 Taj Bagh Housing Society, Lahore,
+                Punjab, Pakistan</a>
+            </p>
+          </div>
+          <ul class="social-icons">
+            <li><a rel="" href="" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="col-md-3 footer-item">
-        <h4>Mission</h4>
-        <p>Our mission is to deliver cutting-edge technology solutions that exceed expectations and drive tangible
-          results for our clients. We strive to be a trusted partner, providing tailored solutions that address the
-          unique needs of each client.</p>
-      </div>
-      <div class="col-md-3 footer-item">
-        <h4>Quick Links</h4>
-        <ul class="menu-list">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Our Services</a></li>
-          <li><a href="careers.html">Careers</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="join-us.html">Join Us</a></li>
-        </ul>
-      </div>
-      <div class="col-md-3 footer-item last-item">
-        <h4>Contact Us</h4>
-      
+    </div>
 
-        <div>
+  </footer>
 
-          <p class="text-white d-flex mb-2 ">
-            <i class=" fa fa-phone site-footer-icon"></i>
-
-            <a href="tel: +92 336 5555408" class="site-footer-link ">
-              +92 336 5555408
-            </a>
-          </p>
-
-          <p class="text-white d-flex site-footer-main">
-            <i class="fa fa-envelope site-footer-icon"></i>
-
-            <a href="mailto:aspiretechnologies88@gmail.com" class="site-footer-link">
-              aspiretechnologies88@gmail.com </a>
-          </p>
-
-          <p class="text-white d-flex mt-3 site-footer-main">
-            <i class="fa fa-map-marker site-footer-icon "></i>
-
-            <a href="https://maps.app.goo.gl/xMenKojYXraNXFGM7 " target="_blank" class="site-footer-link">Aspire Tech, Manzoor Colony Phase 3 Taj Bagh Housing Society, Lahore, 
-              Punjab, Pakistan</a>
+  <div class="sub-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>
+            Copyright © 2024 Aspire Tech - All Rights Reserved.
           </p>
         </div>
-        <ul class="social-icons">
-          <li><a rel="" href="" target="_blank"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-
-</footer>
-
-<div class="sub-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>
-          Copyright © 2024 Aspire Tech - All Rights Reserved.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
 
 
   <!-- Bootstrap core JavaScript -->

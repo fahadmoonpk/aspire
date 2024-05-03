@@ -235,29 +235,24 @@
             messagingSenderId: "80245400067",
             appId: "1:80245400067:web:461b16efead82565dd6436"
         };
-        // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
-
-        // Reference to Firebase Realtime Database
         const database = firebase.database().ref('applications');
-
-        // Function to handle form submission
         function submitForm(event) {
-            event.preventDefault(); // Prevent default form submission behavior
-
-            // Get form values
+            event.preventDefault(); 
             const fullName = document.getElementById('fullName').value;
             const email = document.getElementById('email').value;
             const phoneNo = document.getElementById('phoneNo').value;
             const position = document.getElementById('position').value;
             const message = document.getElementById('message').value;
+            const date= new Date().toLocaleDateString();
 
-            // Save form data to Firebase
+
             database.push().set({
                 fullName: fullName,
                 email: email,
                 phoneNo: phoneNo,
                 position: position,
+                date:date,
                 message: message
             })
                 .then(() => {

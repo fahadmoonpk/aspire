@@ -625,7 +625,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #0E2442;
+	background-color: #856E93;
 	padding: 40px 0px;
 	color: #fff;
 }
@@ -690,7 +690,6 @@ ul.slick-dots {
 	background-attachment: fixed;
 	padding: 300px 0px;
 	color: #fff;
-	background-color: #856E93;
 }
 
 .fun-facts span {
@@ -1196,7 +1195,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../image/about-us.png);
+	background-image: url(../Image/about-us.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
